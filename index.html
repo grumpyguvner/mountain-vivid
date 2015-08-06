@@ -14,6 +14,22 @@
 		<link rel="stylesheet" type="text/css" href="css/YTPlayer.css" /><!-- CSS: YTPlayer CSS -->
 		<link rel="stylesheet" type="text/css" href="css/styles.css" /><!-- CSS: Main CSS -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css" /><!-- CSS: Responsive CSS -->
+      <style>
+        video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+//        z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(img/homepage.jpg) no-repeat;
+        background-size: cover;
+        }
+      </style>
 	</head>
 	<body  class="homepage index-home index">
 
@@ -39,13 +55,16 @@
 
 			<header class="header">
 				<div class="bg-img">
-					<img class="async-image hide" src="#" data-src="http://placehold.it/1280x720/7f8c8d/ffffff" alt="" />
+    <video autoplay loop poster="img/homepage.jpg" id="bgvid">
+    <source src="img/homepage.mp4" type="video/mp4">
+    </video>
+<!--					<img class="async-image hide" src="#" data-src="img/homepage.jpg" alt="" />
 					<div class='video-bg'></div>
 					<a class="player" data-property="{videoURL:'zUBZpGaHC04',containment:'.video-bg',autoPlay:true, mute:true, startAt:324,opacity:1,ratio:'16/9',showControls:false,showYTLogo:false}"></a>
-					<div class="overlay hidden" id="overlay"></div>
+					<div class="overlay hidden" id="overlay"></div> -->
 				</div>
-				<div class="title hidden" id="title">
-					<h1>I want to travel the world</h1>
+				<div class="title " id="title" style="z-index: 1000;">
+                                        <img src="img/vivid-logo-homepage.png" alt="Vivid Mountain" >
 				</div>
 			</header>
 
@@ -55,7 +74,7 @@
 				<div class="">
 					<div class="grid">
 						<figure class="single-item-effect big las-vegas">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Know how to <span>live</span></h2>
@@ -66,7 +85,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small wild">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Life <span>Begins</span></h2>
@@ -77,7 +96,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small los-angeles">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>If L.A. <span>falls</span></h2>
@@ -88,7 +107,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small los-angeles">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Live the<span>moment</span></h2>
@@ -99,7 +118,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small wild">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>The <span>journey</span></h2>
@@ -110,7 +129,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big paris">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Bad day in <span>Paris</span></h2>
@@ -121,7 +140,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big city-break">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>See the city <span>lights</span></h2>
@@ -132,7 +151,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small las-vegas">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>God would <span>do it</span></h2>
@@ -143,7 +162,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small city-break">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Dare to <span>explore</span></h2>
@@ -154,7 +173,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small paris">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Never too <span>old</span></h2>
@@ -165,7 +184,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small las-vegas">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Imagine <span>how</span></h2>
@@ -176,7 +195,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect big wild">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>I want to travel <span>the world</span></h2>
@@ -187,7 +206,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big wild">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>If you don't know <span>Where</span></h2>
@@ -198,7 +217,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small paris">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Bon <span>appetite</span></h2>
@@ -209,7 +228,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small city-break">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Marry the <span>night</span></h2>
@@ -220,7 +239,7 @@
 							</figcaption>												
 						</figure>								
 						<figure class="single-item-effect small paris">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>I had it <span>all</span></h2>
@@ -231,7 +250,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small las-vegas">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Life is<span>complicated</span></h2>
@@ -242,7 +261,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big los-angeles">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Every day may not be <span>good</span></h2>
@@ -253,7 +272,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big los-angeles">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>I will <span>prepare</span></h2>
@@ -264,7 +283,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small las-vegas">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>From<span>Vegas</span></h2>
@@ -275,7 +294,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small wild">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Go <span>Ahead</span></h2>
@@ -286,7 +305,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small paris">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Like the <span>sunrise</span></h2>
@@ -297,7 +316,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect small wild">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Travel <span>is</span></h2>
@@ -308,7 +327,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big paris">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Live your own <span>story</span></h2>
@@ -319,7 +338,7 @@
 							</figcaption>												
 						</figure>
 						<figure class="single-item-effect big las-vegas">
-							<img src="http://placehold.it/965x350/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/965x350/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Want something you’ve <span>never had</span></h2>
@@ -330,7 +349,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small wild">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Go <span>Explore</span></h2>
@@ -341,7 +360,7 @@
 							</figcaption>											
 						</figure>
 						<figure class="single-item-effect small city-break">
-							<img src="http://placehold.it/480x320/7f8c8d/ffffff" alt="img01"/>
+							<img src="http://placehold.it/480x320/4c7587/ffffff" alt="img01"/>
 							<figcaption>
 								<div class="figcaption-border">
 									<h2>Let’s fly <span>away</span></h2>

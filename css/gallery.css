@@ -250,7 +250,7 @@ a.filter-nav-trigger:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #514753;
+  background: rgba(94, 145, 168, 1.0);
 }
 
 .intro-effect-jam3.modify header {
@@ -264,7 +264,7 @@ a.filter-nav-trigger:focus {
 }
 
 .intro-effect-jam3 .header p {
-  color: #514753;
+  color: rgba(94, 145, 168, 1.0);
   opacity: 1;
   -webkit-transform: translateY(150px);
   transform: translateY(150px);
@@ -278,7 +278,7 @@ a.filter-nav-trigger:focus {
 
 .intro-effect-jam3 .header,
 .intro-effect-jam3 .content {
-  background: #fff;
+//  background: #fff;
 }
 
 .homepage .intro-effect-jam3.modify .title,

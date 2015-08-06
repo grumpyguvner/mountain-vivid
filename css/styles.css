@@ -51,8 +51,10 @@ URL:        http://modeltheme.com/travelogue/
 /*---------------------------------------------*/
 /*--- 1. Body ---*/
 /*---------------------------------------------*/
-
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@font-face {
+    font-family:"GothamBook";
+    src: url("../fonts/GothamBook.ttf") /* TTF file for CSS3 browsers */
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,700,600,800,700italic,800italic);
 
 *,
@@ -71,7 +73,7 @@ URL:        http://modeltheme.com/travelogue/
     clear: both; 
 }
 html {
-    font-family: "open sans";
+    font-family: "GothamBook",  "open sans";
     height: 100%;
     font-weight: 400;
 }
@@ -82,7 +84,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 1.5;
-    font-family: 'open sans';
+    font-family: "GothamBook",  "open sans";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -198,13 +200,13 @@ body {
 
 /*--- 1.3. COLORS ---*/
 .black {
-    color: rgba(0, 0, 0, 0.7); /* Black */
+    color: rgba(0, 52, 77, 1.0); /* Black */
 }
 .white{
     color: rgba(254, 254, 254, 254);/* White */
 }
 .green{
-    color: rgba(51, 153, 153, 0.8);/* Green */
+    color: rgba(94, 145, 168, 1.0);/* Green */
 }
 .strong{
     font-weight: bold;
@@ -220,20 +222,20 @@ body {
 /*--- 1.4. HEADINGS ---*/
 h1 {
     font-size: 32px;
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
 }
 h2 {
     font-size: 28px;
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
 }
 h3 {
     font-size: 24px;
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
 }
 h4 {
     font-size: 20px;
     line-height: 20px;
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
 }
 .fullwidth h4 {
     font-weight: normal;
@@ -252,7 +254,7 @@ h4 {
 /*--- 1.5. FORM FIELDS ---*/
 input,
 textarea{
-    font-family: "open sans";
+    font-family: "GothamBook",  "open sans";
 }
 .index-contact input:focus, 
 .index-contact textarea:focus {
@@ -271,7 +273,7 @@ ul, ol {
 }
 .content .ul li:before {
     content: '\f0da';
-    color: rgba(0, 0, 0,0.3);
+    color: rgba(0, 52, 77,0.3);
     font-family: "FontAwesome";
     margin: 0 16px 0 -15px;
 }
@@ -297,10 +299,10 @@ ul, ol {
     text-align: justify;
 }
 .highlight {
-    background: none repeat scroll 0 0 rgba(51, 153, 153, 0.5);
+    background: none repeat scroll 0 0 rgba(94, 145, 168, 0.5);
 }
 p {
-    font-family: "open sans";
+    font-family: "GothamBook",  "open sans";
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
@@ -479,24 +481,24 @@ button.trigger span::before {
     color: rgba(255, 255, 255, 0.6);
 }
 .button-v1.green {
-    border: 2px solid rgba(51, 153, 153, 1);
-    color: rgba(51, 153, 153, 1);
+    border: 2px solid rgba(94, 145, 168, 1.0);
+    color: rgba(94, 145, 168, 1.0);
 }
 .button-v1.green:hover{
-    border: 2px solid rgba(51, 153, 153, 0.6);
-    color: rgba(51, 153, 153, 0.6);
+    border: 2px solid rgba(94, 145, 168, 0.6);
+    color: rgba(94, 145, 168, 0.6);
 }
 .button-v1.black {
-    border: 2px solid rgba(0, 0, 0, 1);
-    color: rgba(0, 0, 0, 1);
+    border: 2px solid rgba(0, 52, 77, 1.0);
+    color: rgba(0, 52, 77, 1);
 }
 .button-v1.black:hover{
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    color: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(0, 52, 77, 0.6);
+    color: rgba(0, 52, 77, 0.6);
 }
 /*--- Style V2 Buttons ---*/
 .button-v2 {
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 52, 77, 1);
     color: white;
 }
 .button-v2:hover{
@@ -504,14 +506,14 @@ button.trigger span::before {
 }
 .button-v2.white {
     background: rgba(254, 254, 254, 0.8);
-    color: rgb(51, 153, 153);
+    color: rgb(94, 145, 168);
 }
 .button-v2.green {
-    background: rgba(51, 153, 153, 0.8);
+    background: rgba(94, 145, 168, 0.8);
     color: white;
 }
 .button-v2.black {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 52, 77, 0.8);
     color: white;
 }
 /*--- Button sizes ---*/
@@ -567,7 +569,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 /*--- 1.12. DROPCAPS ---*/
 .firstcharacter {
     float: left;
-    font-family: "open sans";
+    font-family: "GothamBook",  "open sans";
     font-size: 57px;
     line-height: 49px;
     padding-left: 3px;
@@ -586,7 +588,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
     text-indent: 35px;
     position: relative;
-    color: rgb(51, 153, 153);
+    color: rgba(94, 145, 168, 1.0);
     font-size: 20px;
     font-style: italic;
     font-weight: 300;
@@ -702,18 +704,18 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     padding: 10px;
     background: rgba(40,44,42,0.05);
     color: #74777b;
-    font-family: "raleway";
+    font-family:  "GothamBook",  "open sans";
     line-height: 1;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 .tabs-style-topline nav a.fa:hover, .tabs-style-topline nav a:hover, .tabs-style-topline nav a:focus {
-    color: rgba(51, 153, 153, 0.8) !important;
+    color: rgba(94, 145, 168, 0.8) !important;
 }
 .tabs-style-topline nav li.tab-current a {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    box-shadow: 0 3px 0 rgba(51, 153, 153, 0.8) inset;
-    color: rgba(51, 153, 153, 0.8);
+    background: none repeat scroll 0 0 rgba(0, 52, 77, 0);
+    box-shadow: 0 3px 0 rgba(94, 145, 168, 0.8) inset;
+    color: rgba(94, 145, 168, 0.8);
 }
 .tabs-style-topline .fa:before {
     border-bottom: 0 none;
@@ -726,7 +728,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 .tabs .fa:hover:before,
 .tabs-style-topline .tab-current .fa:before,
 .tabs-style-topline .tab-current .fa:hover:before {
-    color: rgb(51, 153, 153);
+    color: rgb(94, 145, 168);
 }
 
 .tabs-style-topline nav a span {
@@ -746,11 +748,11 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     position: fixed;
     bottom: 25px;
     right: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px rgba(0, 52, 77, 0.05);
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url("../img/top-arrow.svg") no-repeat scroll center 50% rgba(51, 153, 153, 0.7);
+    background: url("../img/top-arrow.svg") no-repeat scroll center 50% rgba(0, 52, 77, 1.0);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -771,7 +773,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     opacity: .5;
 }
 .no-touch .back-to-top:hover {
-    background-color: #e86256;
+    background-color: rgba(0, 52, 77, 1.0);
     opacity: 1;
 }
 
@@ -793,7 +795,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     opacity: 0.5;
 }
 .pattern-overlay {
-    background: url("../img/pattern.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../img/pattern.png") repeat scroll 0 0 rgba(0, 52, 77, 0);
     height: 100%;
     left: 0;
     position: absolute;
@@ -846,7 +848,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     transform: translateX(-50%) translateY(-50%);
 }
 .title h1.black{
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 52, 77, 1.0);
 }
 .title h1 {
     color: rgba(255, 255, 255,.95);
@@ -991,6 +993,8 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     width: 40px;
 }
 .travelogue-icon-search:hover {
+    border-color: rgba(202, 219, 54, 1.0);
+    background-color: rgba(0, 52, 77, 1.0);
     opacity: 0.8;
 }
 .travelogue-search-open .travelogue-search-input {
@@ -1061,7 +1065,7 @@ a.sound:before{
 /*Section title*/
 .section-title {
     color: rgba(255, 255, 255, 1);
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
     font-weight: 600;
     margin: 0;
     text-align: left;
@@ -1074,7 +1078,7 @@ a.sound:before{
 
 /*Section description*/
 .section-description {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(94, 145, 168, 1.0);
     display: block;
     font-size: 14px;
     font-weight: 400;
@@ -1127,8 +1131,8 @@ a.sound:before{
 .st-menu .sidebar-social-networks ul li a {
     line-height: normal;
     padding: 1px;
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: none repeat scroll 0 0 rgba(0, 52, 77, 0);
+    border: 1px solid rgba(94, 145, 168, 0.3);
 }
 .st-menu .sidebar-social-networks ul li a:before {
     width: 0;
@@ -1164,7 +1168,7 @@ a.sound:before{
     color: rgba(255, 255, 255, 1);
 }
 .sidebar-social-networks i {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(94, 145, 168, 0.3);
     float: left;
     font-size: 17px;
     line-height: 21px;
@@ -1219,7 +1223,7 @@ nav.sidebar-navigation-menu {
     color: rgba(255, 255, 255, 1);
 }
 .st-menu .sidebar-navigation-menu ul li a {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(94, 145, 168, 0.9);
     font-weight: 700;
     font-size: 14px;
     padding: 13px 10px 10px 80px;
@@ -1278,7 +1282,7 @@ nav.sidebar-navigation-menu {
 .fullwidth.sidebar-navigation-menu ul li a i {
     font-size: 15px;
     margin-right: 15px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(202, 219, 54, 1.0);
 }
 .fullwidth.sidebar-navigation-menu li a:hover:before {
     width: 60px;
@@ -1313,7 +1317,7 @@ nav.sidebar-navigation-menu {
     width: 280px;
     overflow-y: scroll; 
     height: 100%;
-    background: none repeat scroll 0 0 rgba(39, 38, 43, 0.8);
+    background: none repeat scroll 0 0 rgba(0, 52, 77, 1.0);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -1323,7 +1327,7 @@ nav.sidebar-navigation-menu {
     right: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 52, 77,0.2);
     content: '';
     opacity: 1;
     -webkit-transition: opacity 0.5s;
@@ -1345,10 +1349,10 @@ nav.sidebar-navigation-menu {
     margin: 0;
     padding: 0;
     color: white;
-    text-shadow: 0 0 1px rgba(0,0,0,0.1);
-    -o-text-shadow: 0 0 1px rgba(0,0,0,0.1);
-    -moz-text-shadow: 0 0 1px rgba(0,0,0,0.1);
-    -webkit-text-shadow: 0 0 1px rgba(0,0,0,0.1);
+    text-shadow: 0 0 1px rgba(0, 52, 77,0.1);
+    -o-text-shadow: 0 0 1px rgba(0, 52, 77,0.1);
+    -moz-text-shadow: 0 0 1px rgba(0, 52, 77,0.1);
+    -webkit-text-shadow: 0 0 1px rgba(0, 52, 77,0.1);
     font-weight: 300;
     font-size: 32px;
 }
@@ -1415,7 +1419,7 @@ nav.sidebar-navigation-menu {
     right: 0;
     width: 0;
     height: 0;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0, 52, 77,0.2);
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
@@ -1444,6 +1448,8 @@ body .cd-primary-nav-trigger, body .sound {
 }
 body .cd-primary-nav-trigger.is-clicked,
 body .cd-primary-nav-trigger:hover, body .sound:hover, .modify .top:hover {
+    border-color: rgba(202, 219, 54, 1.0);
+    background-color: rgba(0, 52, 77, 1.0);
     opacity: 0.8;
 }
 address {
@@ -1520,7 +1526,7 @@ body .cd-primary-nav-trigger:before {
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
 .fullwidth.newsletter input {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: none repeat scroll 0 0 rgba(0, 52, 77, 0);
     border: 1px solid rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
@@ -1664,7 +1670,7 @@ body .cd-primary-nav-trigger:before {
     height: 30px;
     border-radius: inherit;
     background: #d95353;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 52, 77, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
     transition: background-color 0.2s;
@@ -1780,7 +1786,7 @@ body .cd-primary-nav-trigger:before {
     -webkit-overflow-scrolling: touch;
     text-align: left;
     line-height: 1.5;
-    background:none repeat scroll 0 0 rgba(39, 38, 43, 0.8);
+    background:none repeat scroll 0 0 rgba(0, 52, 77, 0.8);
     padding: 2em 1em 1em;
     visibility: hidden;
     opacity: 0;
@@ -1856,7 +1862,7 @@ body .cd-primary-nav-trigger:before {
     transition: width 0.7s;
 }
 header .overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 52, 77, 0.3);
     height: 100%;
     left: 0;
     position: absolute;
@@ -1897,7 +1903,7 @@ header .overlay {
     -moz-transition: all 0.9s ease 0s;
 }
 .index-about .modify .title h1{
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 52, 77, 0.7);
     transition: all 0.9s ease 0s;
     -o-transition: all 0.9s ease 0s;
     -webkit-transition: all 0.9s ease 0s;
@@ -2007,12 +2013,12 @@ header .overlay {
     z-index: 1;
     display: inline-block;
     overflow: hidden;
-    background: rgba(39, 38, 43,0.8);
+    background: rgba(0, 52, 77, 0.8);
     text-align: center;
     cursor: pointer;
 }
 .grid figure .figure-overlay  {
-    background: rgba(39, 38, 43,0.3);
+    background: rgba(0, 52, 77, 0.3);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2021,7 +2027,7 @@ header .overlay {
     left: 0;
 }
 .grid figure:hover .figure-overlay {
-    background: rgba(39, 38, 43,0.6);
+    background: rgba(0, 52, 77, 0.6);
 }
 .grid figure img {
     position: relative;
@@ -2084,8 +2090,8 @@ header .overlay {
     text-align: left;
     margin: 0;
     text-transform: uppercase;
-    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
-    -webkit-text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);    
+    text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);
+    -webkit-text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);    
 }
 .index-single .modify .title{
     transform: translateX(-50%) translateY(10%);
@@ -2096,8 +2102,8 @@ header .overlay {
 .index-category .grid figure p {
     text-align: left;
     margin: 0;
-    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
-    -webkit-text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);
+    -webkit-text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);
 }
 .index-home .grid figure p, .index-category .grid figure p {
     color: rgba(254, 254, 254, 0.8) !important;
@@ -2395,7 +2401,7 @@ header .overlay {
     margin-left: 30px;
 }
 .travelogue_comments .author_name {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 52, 77, 0.7);
     font-size: 15px;
     line-height: normal;
     text-align: center;
@@ -2440,7 +2446,7 @@ header .overlay {
     width: 84.5%;
 }
 .travelogue_comments .comment_body p {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 52, 77, 0.7);
     font-size: 15px;
     line-height: normal;
     margin-bottom: 0;
@@ -2489,12 +2495,12 @@ input, textarea {
     right: 10px;
 }
 .content > div.article-footer > p, .content > div.article-footer > p:first-child {
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 52, 77, 0.85);
     font-size: 14px;
     margin: 0;
 }
 .article-footer h3.black {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 52, 77, 0.5);
 }
 .index-single .single-item-effect.half:nth-child(1) h2,
 .index-single .single-item-effect.half:nth-child(1) p {
@@ -2540,7 +2546,7 @@ input, textarea {
 }
 .simform ol:before {
     content: '';
-    background-color: rgba(51,153,153,0.5);
+    background-color: rgba(94, 145, 168, 0.5);
     position: absolute;
     left: 0;
     top: 60px;
@@ -2551,7 +2557,7 @@ input, textarea {
 }
 .index-single .simform ol:before {
     content: '';
-    background-color: rgba(51,153,153,0.5);
+    background-color: rgba(94, 145, 168, 0.5);
     position: absolute;
     left: 0;
     top: 51px;
@@ -2593,7 +2599,7 @@ input, textarea {
     transform: translateY(-100%);
 }
 .questions li > span label {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 52, 77, 0.6);
     font-size: 20px;
     font-weight: 500;
 }
@@ -2680,7 +2686,7 @@ input, textarea {
     height: 100%;
     border: none;
     background: none;
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 52, 77,0.4);
     text-align: center;
     opacity: 0;
     z-index: 100;
@@ -2691,10 +2697,10 @@ input, textarea {
     -webkit-transform: translateX(-20%);
     transform: translateX(-20%);
     pointer-events: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 52, 77, 0);
 }
 .next:hover {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0, 52, 77,0.5);
 }
 .index-single .next::after {
     line-height: 66px;
@@ -2735,7 +2741,7 @@ input, textarea {
 .simform .progress {
     width: 0%;
     height: 2px;
-    background: rgba(51,153,153,1);
+    background: rgba(94, 145, 168, 1.0);
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -2744,7 +2750,7 @@ input, textarea {
     top: auto;
     width: 100%;
     height: inherit;
-    background: rgba(51,153,153,0.6);
+    background: rgba(94, 145, 168, 0.6);
     content: '';
 }
 /* Number indicator */
@@ -2809,7 +2815,7 @@ input, textarea {
 .simform .error-message {
     padding: 6px 56px 0 0;
     width: 100%;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 52, 77,0.7);
     font-style: italic;
     font-size: 18px;
 }
@@ -2859,8 +2865,8 @@ input, textarea {
     float: right;
     padding: 10px 20px;
     border: none;
-    background: rgba(0,0,0,0.3);
-    color: rgba(0,0,0,0.4);
+    background: rgba(0, 52, 77,0.3);
+    color: rgba(0, 52, 77,0.4);
 }
 .no-js .simform .controls {
     display: none;
@@ -2885,7 +2891,7 @@ input[type=text]::-ms-clear {
 }
 
 .index-contact .title p.subline{
-    font-family: 'Raleway';
+    font-family:  "GothamBook",  "open sans";
     font-size: 26px;
     line-height: 40px;
     color: rgba(255,255,255,0.6);
@@ -2975,12 +2981,12 @@ label.label {
 }
 .index-contact .intro-effect-smooth .title h1 span:first-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:first-child{
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
     font-weight: 300;
 }
 .index-contact .intro-effect-smooth .title h1 span:last-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:last-child{
-    font-family: "Raleway";
+    font-family:  "GothamBook",  "open sans";
     font-weight: 700;
 }
 .index-contact.p404 .title {
@@ -3044,7 +3050,7 @@ body.gallery-open .sound {
 /* Slideshow style */
 .slideshow {
     position: fixed;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 52, 77,0.6);
     width: 100%;
     height: 100%;
     top: 0;
@@ -3121,7 +3127,7 @@ body.gallery-open .sound {
     width: 100%;
     z-index: 1000000000000000;
     left: 0;
-    background: rgba(39, 38, 43,0.8);
+    background: rgba(0, 52, 77, 0.8);
 }
 .slideshow figcaption h3 {
     font-weight: 300;
@@ -3236,7 +3242,7 @@ span.nav-close:after {
     color: #fff;
     letter-spacing: 1px;
     text-align: center;
-    background: rgba(39, 38, 43,0.8);
+    background: rgba(0, 52, 77, 0.8);
 }
 .info-keys:before,
 .info-keys:after {
@@ -3296,7 +3302,7 @@ span.nav-close:after {
 .nex-container li {    
     position: absolute;
     top: 50%;    
-    background: rgba(39, 38, 43,0.8);
+    background: rgba(0, 52, 77, 0.8);
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
     visibility: visible;
@@ -3560,6 +3566,8 @@ nav.gallery-nav > div > span.nav-next {
     -moz-animation: scroll-down-pulse 1.3s linear 2;
     -o-animation: scroll-down-pulse 1.3s linear 2;
     animation: scroll-down-pulse 1.3s linear 2;
+    border-color: rgba(202, 219, 54, 1.0);
+    background-color: rgba(0, 52, 77, 1.0);
     opacity: 0.8;
 }
 
@@ -3594,7 +3602,7 @@ nav.gallery-nav > div > span.nav-next {
     padding: 80px 20px 40px;
 }
 .intro-effect-push .content > div {
-    color: rgba(0, 0, 0,.8);
+    color: rgba(0, 52, 77, 0.8);
 }
 .intro-effect-push > .title,
 .intro-effect-push .content > div {
@@ -3624,7 +3632,7 @@ nav.gallery-nav > div > span.nav-next {
 
 .intro-effect-push > .title > h2 {
     font-size: 32px;
-    color: rgba(0,0,0,0.4);
+    color: rgba(0, 52, 77, 0.4);
 }
 
 /*--- 8.2. [GRID] EFFECT (Between Section) ---*/
@@ -4141,8 +4149,8 @@ nav.gallery-nav > div > span.nav-next {
     left: 0;
     opacity: 0;
     pointer-events: none;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ddd 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ddd 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ddd 100%) repeat scroll 0 0 rgba(0, 52, 77, 0);
+    background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ddd 100%) repeat scroll 0 0 rgba(0, 52, 77, 0);
 }
 .intro-effect-fadeout.modify .bg-img::after,
 .intro-effect-fadeout.modify .pattern-overlay::after {
