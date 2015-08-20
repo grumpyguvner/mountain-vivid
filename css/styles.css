@@ -1554,6 +1554,12 @@ body .cd-primary-nav-trigger:before {
 .fullwidth.newsletter {
     text-align: left;
 }
+.fullwidth.newsletter,
+.fullwidth.sidebar-social-networks,
+.fullwidth.address,
+.fullwidth.bottom-links {
+    padding-bottom: 0px;
+}
 /* Sidebar - Open state */
 .travelogue-search.travelogue-search-open {
     width: 100%;
