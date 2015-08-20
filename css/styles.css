@@ -134,6 +134,12 @@ body {
     max-width: 900px;
     padding: 0 20px;
 }
+@media (max-width: 640px) {
+    .one_half{
+        float: none;
+        width: 100%;
+    }
+}
 
 
 
@@ -331,6 +337,7 @@ a:hover, a:focus {
     color: #339999;
     position: relative;
     text-decoration: none;
+    white-space: nowrap;
 }
 a:hover:before {
     max-width: 100%;
@@ -493,8 +500,8 @@ button.trigger span::before {
     color: rgba(0, 52, 77, 1);
 }
 .button-v1.black:hover{
-    border: 2px solid rgba(0, 52, 77, 0.6);
-    color: rgba(0, 52, 77, 0.6);
+    background-color: rgba(0, 52, 77, 1.0);
+    color: rgba(255, 255, 255, 1);
 }
 /*--- Style V2 Buttons ---*/
 .button-v2 {
@@ -849,12 +856,14 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 }
 .title h1.black{
     color: rgba(0, 52, 77, 1.0);
+    text-shadow: none;
 }
 .title h1 {
     color: rgba(255, 255, 255,.95);
+    text-shadow: 2px 2px rgb(0, 52, 77);
     font-size: 73px;
     font-weight: 800;
-    line-height: 73px !important;
+//    line-height: 73px !important; (removed for MACs)
     margin: 0 auto;
     padding: 0 0 3px;
     text-transform: uppercase;
@@ -1904,6 +1913,7 @@ header .overlay {
 }
 .index-about .modify .title h1{
     color: rgba(0, 52, 77, 0.7);
+    text-shadow: none;
     transition: all 0.9s ease 0s;
     -o-transition: all 0.9s ease 0s;
     -webkit-transition: all 0.9s ease 0s;
@@ -1912,6 +1922,7 @@ header .overlay {
 .index-category .pattern-overlay {
     position: fixed;
 }
+.author_skills .one_half,
 .author_skills .one_third {
     padding: 4px;
 }
@@ -2081,7 +2092,7 @@ header .overlay {
 .index-category .grid figure h2 {
     word-spacing: 0;
     font-weight: 300;
-    line-height: 34px;
+//    line-height: 34px;  (removed for MACs)
     letter-spacing: 0;
 }
 .index-home .grid figure h2 span,

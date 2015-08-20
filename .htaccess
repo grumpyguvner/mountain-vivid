@@ -1,1 +1,9 @@
 ErrorDocument 404 /notfound.html
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !\.(html|gif|jpe?g|png|js|css)$
+# If the request is not for a valid directory
+#RewriteCond %{REQUEST_FILENAME} !-d
+# If the request is not for a valid file
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ $1.html [L,R=302]

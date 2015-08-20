@@ -29,8 +29,8 @@ jQuery('.async-image').load(function() {
 
 // ~~~~~~~ Fancy Search Form ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
 jQuery( document ).ready(function( $ ) {
-	new UISearch( document.getElementById( 'travelogue-search' ) );
-	jQuery('#st-container').load('nav.html', function() {
+//	new UISearch( document.getElementById( 'travelogue-search' ) );
+	jQuery('#st-container').load('/nav.html', function() {
 		//Begin: MailChimp JS
 		jQuery('#invite').ketchup().submit(function(evt) {
 			evt.preventDefault();
