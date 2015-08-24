@@ -131,6 +131,8 @@
 			classie.add( container, 'modify' );			
 		}
 		else {
+			//disable showing full page image
+			return;
 			noscroll = true;
 			disable_scroll();
 			classie.remove( container, 'modify' );

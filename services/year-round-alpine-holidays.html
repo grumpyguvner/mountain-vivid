@@ -1,120 +1,182 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<meta name="author" content="Travelogue" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Travelogue"/>
 
-		<title>Vivid Mountain | Services | Year Round Alpine Holidays</title>
-		<link rel="shortcut icon" href="/img/favicon.ico">
+    <title>Vivid Mountain | Services | Year Round Alpine Holidays</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
 
-		<!-- ### CSS Stylesheets ##################################################################### -->
-		<link rel="stylesheet" type="text/css" href="/css/normalize.css" /><!-- CSS: Normalize -->
-		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" /><!-- CSS: Font Awesome -->
-		<link rel="stylesheet" type="text/css" href="/css/styles.css" /><!-- CSS: Main CSS -->
-		<link rel="stylesheet" type="text/css" href="/css/responsive.css" /><!-- CSS: Responsive CSS -->		
-	</head>
-	<body class="index-single">
+    <!-- ### CSS Stylesheets ##################################################################### -->
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css"/>
+    <!-- CSS: Normalize -->
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <!-- CSS: Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <!-- CSS: Main CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
+    <!-- CSS: Responsive CSS -->
+</head>
+<body class="index-single">
 
-		<div id="container" class="container intro-effect-push">
+<div id="container" class="container intro-effect-push">
 
-		<a class="cd-primary-nav-trigger" id="trigger-menu" href="#0">
-		  	<span class="cd-menu-icon"></span>
-		</a>
+    <a class="cd-primary-nav-trigger" id="trigger-menu" href="#0">
+        <span class="cd-menu-icon"></span>
+    </a>
 
-			<div id="travelogue-search" class="travelogue-search"></div>
+    <div id="travelogue-search" class="travelogue-search"></div>
 
-			<header class="header">
-				<div class="bg-img">
-                                    <img  class="async-image hide" src="#" data-src="/img/services/year-round-alpine-holidays/year-round-alpine-holidays.jpg" alt="" />
-                                    <div class="overlay hidden"  id="overlay"></div>
-				</div>
-				<div class="title hidden" id="title">					
-                                    <h1>Year Round <span>Alpine</span> Holidays</h1>
-				</div>
-			</header>
-			<button class="trigger scroll-down-pulse"><span>Trigger</span></button>
-			<div class="title">
-                                <h1 class="black">Year Round <span>Alpine</span> Holidays</h1>
-				<h2 class="subline">Skiing, mountaineering, mountain biking and more.</h2>
-			</div>
-			<article class="content">
-				<div>
-                                        <img src="/img/services/year-round-alpine-holidays/year-round-alpine-holidays-banner.jpg" width="860" height="300" alt="" />
-					<p>In the 2016 winter season we focus on skiing, but we will soon be launching a range of other great mountain adventures.</p>
-                                        <p>If you fancy mountaineering, mountain biking, via ferrata or a range of other exciting summer activities in the Alps sign up for our newsletter:</p>
-                                        <form action="http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhthj/" method="post" id="subForm">
-                                            <div class="input-group">
-                                              <input id="fieldEmail" name="cm-xkhthj-xkhthj" class="form-control" required="" placeholder="Enter your email address" type="email">
-                                              <span class="input-group-btn">
-                                                <button class="btn btn-default" type="submit">Subscribe</button>
-                                              </span>
-                                            </div>
-                                        </form>					
-                                        
-					<div class="divider"></div>
+    <header class="header">
+        <div class="bg-img">
+            <img class="async-image hide" src="#"
+                 data-src="/img/services/year-round-alpine-holidays/year-round-alpine-holidays.jpg" alt=""/>
 
-                                </div>
-				<div class="article-footer">
+            <div class="overlay hidden" id="overlay"></div>
+        </div>
+        <div class="title hidden" id="title">
+            <h1>Year Round <span>Alpine</span> Holidays</h1>
+        </div>
+    </header>
+    <button class="trigger scroll-down-pulse"><span>Trigger</span></button>
+    <div class="title">
+        <h1 class="black">Year Round <span>Alpine</span> Holidays</h1>
 
-					<div class="divider"></div>
+        <h2 class="subline">Skiing, mountaineering, mountain biking and more.</h2>
+    </div>
+    <article class="content">
+        <div>
+            <img src="/img/services/year-round-alpine-holidays/year-round-alpine-holidays-banner.jpg" width="860"
+                 height="300" alt=""/>
 
-                                        <div id="shareArtice" class="fullwidth"></div>
-                                        
-					<div class="clearfix"></div>
-				</div>
+            <p>In the 2016 winter season we focus on skiing, but we will soon be launching a range of other great
+                mountain adventures. Whether you are an expert or novice its great to enjoy your chosen activity with
+                like minded gay people in a friendly and welcoming environment.</p>
 
-				<div class="divider_30"></div>
+            <p>If you fancy mountaineering, mountain biking, via ferrata or a range of other exciting summer activities
+                in the Alps sign up for our
+                newsletter:</p>
 
-			</article>
-			
+            <div class="divider_30"></div>
+
+<!--        TODO: Test subscription form -->
+
+            <div>
+                <form action="http://newsletters.boundlessmarketing.co.uk/t/j/s/xkhthj/" class="simform" method="post"
+                      id="theForm">
+                    <div class="simform-inner">
+                        <ol class="questions">
+                            <li>
+                                <span><label for="fieldEmail">What's your email address?</label></span>
+                                <input id="fieldEmail" class="focus-me" name="cm-xkhthj-xkhthj" type="email"/>
+                            </li>
+                        </ol>
+                        <!-- /questions -->
+                        <button class="submit" name="submit_contact" type="submit">Subscribe</button>
+                        <div class="controls">
+                            <button class="next"></button>
+                            <div class="progress"></div>
+									<span class="number">
+										<span class="number-current"></span>
+										<span class="number-total"></span>
+									</span>
+                            <span class="error-message"></span>
+                        </div>
+                        <!-- / controls -->
+                    </div>
+                    <!-- /simform-inner -->
+                    <span class="final-message"></span>
+                </form>
+            </div>
+
+            <div class="divider_30"></div>
+
+        </div>
+        <div class="article-footer">
+
+            <div class="divider"></div>
+
+            <div id="shareArtice" class="fullwidth"></div>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="divider_30"></div>
+
+    </article>
 
 
-			<div class="pagination grid">
-				<figure class="single-item-effect half">
-					<img src="/img/services/quality-hotels.jpg" alt=""/>
-					<figcaption>
-						<div class="figcaption-border">
-							<h2><i class="fa fa-angle-left"></i> Quality hotels</h2>
-							<p>Carefully selected for you.</p>
-							<a href="/services/quality-hotels.html">More info</a>
-							<div class="figure-overlay"></div>
-						</div>
-					</figcaption>								
-				</figure>
-				<figure class="single-item-effect half">
-					<img src="/img/services/first-class-personal-service.jpg" alt=""/>
-					<figcaption>
-						<div class="figcaption-border">
-                                                    <h2>First class, personal service <i class="fa fa-angle-right"></i></h2>
-							<p>Is at the heart of what we do.</p>
-							<a href="/services/first-class-personal-service.html">More info</a>
-							<div class="figure-overlay"></div>
-						</div>
-					</figcaption>		
-				</figure>
-				<div class="clearfix"></div>
-			</div>
-		</div><!-- /container -->
+    <div class="pagination grid">
+        <figure class="single-item-effect half">
+            <img src="/img/services/off-piste-group.jpg" alt=""/>
+            <figcaption>
+                <div class="figcaption-border">
+                    <h2><i class="fa fa-angle-left"></i> Off-Piste COurse</h2>
 
-		<!-- ### Sidebar Menu ##################################################################### -->
-		<div id="st-container" class="st-container"></div>
+                    <p>For advanced skiers.</p>
+                    <a href="/services/off-piste-group.html">More info</a>
 
-		<!-- ### JS Scripts ##################################################################### -->
-		<script src="/js/modernizr.custom.js"></script>
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/sidebarEffects.js"></script>
-		<script src="/js/classie.js"></script>
-		<script src="/js/custom.js"></script>
-		<script src="/js/modernizr.form.custom.js"></script>
-		<script src="/js/stepsFormComment.js"></script>
-		<script src="/js/transition.js"></script>
-                <script src="/js/jquery.ketchup.all.min.js"></script>
-		<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+                    <div class="figure-overlay"></div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure class="single-item-effect half">
+            <img src="/img/services/great-resorts.jpg" alt=""/>
+            <figcaption>
+                <div class="figcaption-border">
+                    <h2>Great Resorts <i class="fa fa-angle-right"></i></h2>
 
-		<a href="#0" class="back-to-top">Top</a>
-	</body>
+                    <p>We use some of the best resorts</p>
+                    <a href="/resorts.html">More info</a>
+
+                    <div class="figure-overlay"></div>
+                </div>
+            </figcaption>
+        </figure>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- /container -->
+
+<!-- ### Sidebar Menu ##################################################################### -->
+<div id="st-container" class="st-container"></div>
+
+<!-- ### JS Scripts ##################################################################### -->
+<script src="/js/modernizr.custom.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/sidebarEffects.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/modernizr.form.custom.js"></script>
+<script src="/js/stepsForm.js"></script>
+<script src="/js/jquery.form.js"></script>
+<script src="/js/transition-services.js"></script>
+<script src="/js/jquery.ketchup.all.min.js"></script>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    // ~~~~~~~ FORM ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
+    var theForm = document.getElementById( 'theForm' );
+
+    new stepsForm( theForm, {
+        onSubmit : function( form ) {
+            // hide form
+            classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+            jQuery('#theForm').ajaxForm(function() {});
+            jQuery('[name="submit_contact"]').click();
+
+            // let's just simulate something...
+            var messageEl = theForm.querySelector( '.final-message' );
+            messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
+            classie.addClass( messageEl, 'show' );
+        }
+    } );
+</script>
+
+<a href="#0" class="back-to-top">Top</a>
+</body>
 </html>

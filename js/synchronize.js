@@ -452,7 +452,7 @@
      */
     function allVideoIdsReady() {
         if (!useVideoJs()) {
-            return (nrOfPlayersReady == videoIds.length); // TODO
+            return (nrOfPlayersReady == videoIds.length);
         } else {
             for (var i = 0; i < videoIds.length; ++i) {
                 if (!videoIdsReady[videoIds[i]]) {

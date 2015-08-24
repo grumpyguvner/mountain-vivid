@@ -83,7 +83,7 @@ body {
     color: #69606b;
     font-weight: 400;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 1.1;
     font-family: "GothamBook", "open sans";
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -214,6 +214,9 @@ body {
 .green{
     color: rgba(94, 145, 168, 1.0);/* Green */
 }
+.yellow {
+    color: rgba(202, 219, 54, 1.0);/* Yellow */
+}
 .strong{
     font-weight: bold;
 }
@@ -249,7 +252,7 @@ h4 {
 }
 .content h2 {
     margin: 0;
-    line-height: 56px;
+/*    line-height: 56px; (removed for homepage links) */
 }
 .content h3 {
     margin: 0;
@@ -303,6 +306,12 @@ ul, ol {
 }
 .text-justify{
     text-align: justify;
+}
+.text-lower {
+    text-transform: lowercase;
+}
+.text-upper {
+    text-transform: uppercase;
 }
 .highlight {
     background: none repeat scroll 0 0 rgba(94, 145, 168, 0.5);
@@ -864,7 +873,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     font-size: 73px;
     font-weight: 800;
 //    line-height: 73px !important; (removed for MACs)
-    margin: 0 auto;
+margin: 0 auto;
     padding: 0 0 3px;
     text-transform: uppercase;
 }
@@ -884,6 +893,9 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 }
 .index-contact .title h1{
     font-weight: 400;
+}
+.index-contact .title {
+    background-color: rgba(0, 52, 77, 0.5);
 }
 .index-contact .title h1 span:nth-child(2){
     font-weight: 800;
@@ -1956,6 +1968,10 @@ header .overlay {
 .index-category .grid figure.small {
     width: 25%;
 }
+.index-home .grid figure.medium,
+.index-category .grid figure.medium {
+    width: 33.3%;
+}
 .index-home .grid figure.big,
 .index-category .grid figure.big {
     width: 50%;
@@ -2036,6 +2052,9 @@ header .overlay {
     text-align: center;
     cursor: pointer;
 }
+.grid figure.yellow {
+/*    background: rgba(202, 219, 54, 1.0); */
+}
 .grid figure .figure-overlay  {
     background: rgba(0, 52, 77, 0.3);
     background: transparent;
@@ -2048,6 +2067,9 @@ header .overlay {
 }
 .grid figure:hover .figure-overlay {
     background: rgba(0, 52, 77, 0.6);
+}
+.grid figure.yellow:hover .figure-overlay {
+    background: transparent;
 }
 .grid figure img {
     position: relative;
@@ -2067,6 +2089,10 @@ header .overlay {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 2;
+}
+.grid figure.yellow figcaption{
+/*    color: rgba(0, 52, 77, 1.0); */
+    color: rgba(202, 219, 54, 1.0);
 }
 .index-home .grid figure figcaption::before,
 .index-home .grid figure figcaption::after,
@@ -2111,7 +2137,7 @@ header .overlay {
     margin: 0;
     text-transform: uppercase;
     text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);
-    -webkit-text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);    
+    -webkit-text-shadow: 1px 2px 5px rgba(0, 52, 77, 0.7);
 }
 .index-single .modify .title{
     transform: translateX(-50%) translateY(10%);
@@ -2130,6 +2156,10 @@ header .overlay {
     font-size: 18px;
     letter-spacing: 1px;
 }
+.index-home .grid figure.yellow p, .index-category .grid figure.yellow p {
+    /*color: rgba(5, 52, 77, 0.8) !important; */
+    color: rgba(202, 219, 54, 0.8) !important;
+}
 .index-home .video-cover-background-viewport video.loaded,
 .index-category .video-cover-background-viewport video.loaded {
     min-height: 100%;
@@ -2139,6 +2169,10 @@ header .overlay {
 .figcaption-border {
     border: 1px solid rgba(255, 255, 255, 0.1);
     height: 100%;
+}
+.grid figure.yellow figcaption .figcaption-border {
+/*    border: 1px solid rgba(0, 52, 77, 0.1); */
+    border: 1px solid rgba(202, 209, 54, 0.1);
 }
 .grid figure figcaption {
     padding: 10px !important;
@@ -2250,6 +2284,9 @@ header .overlay {
 }
 .index-single .grid figure.small {
     width: 25%;
+}
+.index-single .grid figure.medium {
+    width: 33.3%;
 }
 .grid figure.big {
     width: 50%;
@@ -3619,7 +3656,7 @@ nav.gallery-nav > div > span.nav-next {
     position: relative;
     top: auto;
     left: auto;
-    padding: 80px 20px 40px;
+    padding: 40px 20px 20px;
 }
 .intro-effect-push .content > div {
     color: rgba(0, 52, 77, 0.8);

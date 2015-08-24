@@ -119,7 +119,7 @@ Vertical carousels
 ------------------
 
 jCarousel tries to auto-detect the orientation by simply checking if the list
-elements’s height is greater than the list element’s width.
+elements&apos;s height is greater than the list element&apos;s width.
 
 If auto-detection doesn't work, you can explicitly pass the `vertical` option:
 

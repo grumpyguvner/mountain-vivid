@@ -202,7 +202,6 @@
 		this.options.onSubmit( this.el );
 	}
 
-	// TODO (next version..)
 	// the validation function
 	stepsForm.prototype._validade = function() {
 		// current question´s input
@@ -215,7 +214,6 @@
 		return true;
 	}
 
-	// TODO (next version..)
 	stepsForm.prototype._showError = function( err ) {
 		var message = '';
 		switch( err ) {

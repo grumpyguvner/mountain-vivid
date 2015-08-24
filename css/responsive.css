@@ -469,6 +469,9 @@ URL:        http://modeltheme.com/travelogue/
     .index-home .grid figure.big, .index-category .grid figure.big {
         width: 100%;
     }
+    .index-home .grid figure.medium, .index-category .grid figure.medium {
+        width: 100%; /* changed for homepage slides */
+    }
     .index-home .grid figure.small, .index-category .grid figure.small {
         width: 50%;
     }
