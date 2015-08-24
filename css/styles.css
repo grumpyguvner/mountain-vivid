@@ -1109,6 +1109,10 @@ a.sound:before{
     width: 100%;
 }
 
+.section-description.text-center {
+    text-align: center;
+}
+
 /*Logo*/
 .logo > a {
     display: block;
@@ -1568,6 +1572,7 @@ body .cd-primary-nav-trigger:before {
 }
 .fullwidth.newsletter,
 .fullwidth.sidebar-social-networks,
+.fullwidth.tta,
 .fullwidth.address,
 .fullwidth.bottom-links {
     padding-bottom: 0px;
