@@ -1,3 +1,14 @@
+/* ### Photo Credits ##################################################################### */
+jQuery(document).ready(function () {
+	var cnt;
+	jQuery('img').each(function () {
+		if (typeof jQuery(this).data('credit') != 'undefined') {
+			var credit = jQuery("<div class='img-credit'></div>").text("Photo courtesy of " + jQuery(this).data('credit'));
+			jQuery(this).after(credit);
+		}
+	});
+});
+
 /* ### Ajax images ##################################################################### */
 jQuery( document ).ready(function() {
 	// browser window scroll (in pixels) after which the "back to top" link is shown
