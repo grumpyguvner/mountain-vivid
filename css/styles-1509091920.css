@@ -2220,6 +2220,7 @@ header .overlay {
 .index-category figure.single-item-effect h2,
 .index-home figure.single-item-effect h2 {
     padding-left: 10px !important;
+    padding-top: 10px; /* fix for Mac Safari when top of type was being cut off */
 }
 .index-category figure.single-item-effect:hover h2, 
 .index-category figure.single-item-effect:hover p,
