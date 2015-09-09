@@ -348,6 +348,11 @@ a:hover, a:focus {
     text-decoration: none;
     white-space: nowrap;
 }
+
+a.black,
+a.black:hover, a.black:focus {
+    color: #00344D;
+}
 a:hover:before {
     max-width: 100%;
     -webkit-transition: max-width 0.5s;
@@ -367,6 +372,10 @@ a:before {
     bottom: -4px;
     left: 0;
     width: 100%;
+}
+
+a.black:before {
+    border-bottom-color: #00344D;
 }
 
 
@@ -899,7 +908,7 @@ margin: 0 auto;
     font-weight: 400;
 }
 .index-contact .title {
-    background-color: rgba(0, 52, 77, 0.5);
+    background-color: rgba(0, 52, 77, 0.9);
 }
 .index-contact .title h1 span:nth-child(2){
     font-weight: 800;
@@ -2978,7 +2987,7 @@ input[type=text]::-ms-clear {
     font-family:  "GothamBook", "open sans";
     font-size: 26px;
     line-height: 40px;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 1.0);
 }
 .index-contact .hidden-message {
     float: left;
