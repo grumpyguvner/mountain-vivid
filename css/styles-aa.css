@@ -71,7 +71,7 @@ URL:        http://modeltheme.com/travelogue/
     clear: both; 
 }
 html {
-    font-family: "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     height: 100%;
     font-weight: 400;
 }
@@ -82,7 +82,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 1.5;
-    font-family: 'open sans';
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -220,20 +220,20 @@ body {
 /*--- 1.4. HEADINGS ---*/
 h1 {
     font-size: 32px;
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 h2 {
     font-size: 28px;
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 h3 {
     font-size: 24px;
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 h4 {
     font-size: 20px;
     line-height: 20px;
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 .fullwidth h4 {
     font-weight: normal;
@@ -252,7 +252,7 @@ h4 {
 /*--- 1.5. FORM FIELDS ---*/
 input,
 textarea{
-    font-family: "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 .index-contact input:focus, 
 .index-contact textarea:focus {
@@ -272,7 +272,7 @@ ul, ol {
 .content .ul li:before {
     content: '\f0da';
     color: rgba(0, 0, 0,0.3);
-    font-family: "FontAwesome";
+    font-family: 'FontAwesome';
     margin: 0 16px 0 -15px;
 }
 .content li {
@@ -300,7 +300,7 @@ ul, ol {
     background: none repeat scroll 0 0 rgba(51, 153, 153, 0.5);
 }
 p {
-    font-family: "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
@@ -567,7 +567,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 /*--- 1.12. DROPCAPS ---*/
 .firstcharacter {
     float: left;
-    font-family: "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 57px;
     line-height: 49px;
     padding-left: 3px;
@@ -661,7 +661,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 }
 .tabs .fa:before {
     display: inline-block;
-    font-family: "fontawesome";
+    font-family: 'FontAwesome';
     font-size: 20px;
     font-variant: normal;
     font-weight: normal;
@@ -702,7 +702,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     padding: 10px;
     background: rgba(40,44,42,0.05);
     color: #74777b;
-    font-family: "raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     line-height: 1;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -865,7 +865,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     margin: 0 auto;
 }
 .title p.subline {
-    font-family: "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
@@ -1009,7 +1009,6 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     background: none repeat scroll 0 0 transparent;
     border: 2px solid #fff;
     font-size: 22px;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -1058,7 +1057,7 @@ a.sound:before{
 /*Section title*/
 .section-title {
     color: rgba(255, 255, 255, 1);
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-weight: 600;
     margin: 0;
     text-align: left;
@@ -1285,7 +1284,7 @@ nav.sidebar-navigation-menu {
     color: #FFF;
     opacity: 0.7;
     content: "\f105";
-    font-family: "FontAwesome";
+    font-family: 'FontAwesome';
     left: 0;
     position: absolute;
     text-align: center;
@@ -2727,7 +2726,7 @@ input, textarea {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     display: block;
-    font-family: FontAwesome;
+    font-family: 'FontAwesome';
     font-size: 15px;
     opacity: 1;
 }
@@ -2891,7 +2890,7 @@ input[type=text]::-ms-clear {
 }
 
 .index-contact .title p.subline{
-    font-family: 'Raleway';
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 26px;
     line-height: 40px;
     color: rgba(255,255,255,0.6);
@@ -2981,12 +2980,12 @@ label.label {
 }
 .index-contact .intro-effect-smooth .title h1 span:first-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:first-child{
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-weight: 300;
 }
 .index-contact .intro-effect-smooth .title h1 span:last-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:last-child{
-    font-family: "Raleway";
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-weight: 700;
 }
 .index-contact.p404 .title {
@@ -3168,7 +3167,7 @@ body.gallery-open .sound {
 }
 .icon:before,
 .icon:after {
-    font-family: 'fontawesome';
+    font-family: 'FontAwesome';
     speak: none;
     font-style: normal;
     font-weight: normal;

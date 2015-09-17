@@ -51,10 +51,7 @@ URL:        http://modeltheme.com/travelogue/
 /*---------------------------------------------*/
 /*--- 1. Body ---*/
 /*---------------------------------------------*/
-@font-face {
-    font-family:"GothamBook";
-    src: url("../fonts/GothamBook.ttf") /* TTF file for CSS3 browsers */
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600italic,700,600,800,700italic,800italic);
 
 *,
@@ -73,7 +70,7 @@ URL:        http://modeltheme.com/travelogue/
     clear: both; 
 }
 html {
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     height: 100%;
     font-weight: 400;
 }
@@ -84,7 +81,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     line-height: 1.1;
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
@@ -231,20 +228,20 @@ body {
 /*--- 1.4. HEADINGS ---*/
 h1 {
     font-size: 32px;
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
 }
 h2 {
     font-size: 28px;
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
 }
 h3 {
     font-size: 24px;
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
 }
 h4 {
     font-size: 20px;
     line-height: 20px;
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
 }
 .fullwidth h4 {
     font-weight: normal;
@@ -263,7 +260,7 @@ h4 {
 /*--- 1.5. FORM FIELDS ---*/
 input,
 textarea{
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 .index-contact input:focus, 
 .index-contact textarea:focus {
@@ -317,7 +314,7 @@ ul, ol {
     background: none repeat scroll 0 0 rgba(94, 145, 168, 0.5);
 }
 p {
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
@@ -597,7 +594,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
 /*--- 1.12. DROPCAPS ---*/
 .firstcharacter {
     float: left;
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 57px;
     line-height: 49px;
     padding-left: 3px;
@@ -732,7 +729,7 @@ table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table
     padding: 10px;
     background: rgba(40,44,42,0.05);
     color: #74777b;
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
     line-height: 1;
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -897,7 +894,7 @@ margin: 0 auto;
     margin: 0 auto;
 }
 .title p.subline {
-    font-family: "GothamBook", "open sans", sans-serif;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
@@ -1098,7 +1095,7 @@ a.sound:before{
 /*Section title*/
 .section-title {
     color: rgba(255, 255, 255, 1);
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
     font-weight: 600;
     margin: 0;
     text-align: left;
@@ -2984,7 +2981,7 @@ input[type=text]::-ms-clear {
 }
 
 .index-contact .title p.subline{
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
     font-size: 26px;
     line-height: 40px;
     color: rgba(255, 255, 255, 1.0);
@@ -3074,12 +3071,12 @@ label.label {
 }
 .index-contact .intro-effect-smooth .title h1 span:first-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:first-child{
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
     font-weight: 300;
 }
 .index-contact .intro-effect-smooth .title h1 span:last-child,
 .index-contact .intro-effect-smooth.modify .title h1 span:last-child{
-    font-family:  "GothamBook", "open sans", sans-serif;
+    font-family:  'Montserrat', 'Open Sans', sans-serif;
     font-weight: 700;
 }
 .index-contact.p404 .title {
